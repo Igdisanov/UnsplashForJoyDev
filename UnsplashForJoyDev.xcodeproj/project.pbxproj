@@ -9,23 +9,29 @@
 /* Begin PBXBuildFile section */
 		5225493628F15A6700D23A5E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225493528F15A6700D23A5E /* AppDelegate.swift */; };
 		5225493828F15A6700D23A5E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225493728F15A6700D23A5E /* SceneDelegate.swift */; };
-		5225493A28F15A6700D23A5E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225493928F15A6700D23A5E /* ViewController.swift */; };
-		5225493D28F15A6700D23A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5225493B28F15A6700D23A5E /* Main.storyboard */; };
 		5225494028F15A6700D23A5E /* UnsplashForJoyDev.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5225493E28F15A6700D23A5E /* UnsplashForJoyDev.xcdatamodeld */; };
 		5225494228F15A6900D23A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5225494128F15A6900D23A5E /* Assets.xcassets */; };
 		5225494528F15A6900D23A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5225494328F15A6900D23A5E /* LaunchScreen.storyboard */; };
+		5225495D28F1705100D23A5E /* LikeImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225495C28F1705100D23A5E /* LikeImageTableViewController.swift */; };
+		5225496D28F29B4300D23A5E /* DetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225496C28F29B4300D23A5E /* DetailInfoViewController.swift */; };
+		5225497028F2A5BC00D23A5E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225496F28F2A5BC00D23A5E /* TabBarViewController.swift */; };
+		87D6C8BCE49710298F343007 /* Pods_UnsplashForJoyDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF3CC5D6C284C5115A86B43 /* Pods_UnsplashForJoyDev.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		5225493228F15A6700D23A5E /* UnsplashForJoyDev.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnsplashForJoyDev.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5225493528F15A6700D23A5E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5225493728F15A6700D23A5E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		5225493928F15A6700D23A5E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		5225493C28F15A6700D23A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5225493F28F15A6700D23A5E /* UnsplashForJoyDev.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UnsplashForJoyDev.xcdatamodel; sourceTree = "<group>"; };
 		5225494128F15A6900D23A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5225494428F15A6900D23A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5225494628F15A6900D23A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5225495C28F1705100D23A5E /* LikeImageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeImageTableViewController.swift; sourceTree = "<group>"; };
+		5225496C28F29B4300D23A5E /* DetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoViewController.swift; sourceTree = "<group>"; };
+		5225496F28F2A5BC00D23A5E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		9AF3CC5D6C284C5115A86B43 /* Pods_UnsplashForJoyDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashForJoyDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E47D40A70D13638D34BA952 /* Pods-UnsplashForJoyDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashForJoyDev.release.xcconfig"; path = "Target Support Files/Pods-UnsplashForJoyDev/Pods-UnsplashForJoyDev.release.xcconfig"; sourceTree = "<group>"; };
+		DCBA2866017EF6BA7266C0DA /* Pods-UnsplashForJoyDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashForJoyDev.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashForJoyDev/Pods-UnsplashForJoyDev.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +39,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				87D6C8BCE49710298F343007 /* Pods_UnsplashForJoyDev.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1365F382EB373331E8E417AC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DCBA2866017EF6BA7266C0DA /* Pods-UnsplashForJoyDev.debug.xcconfig */,
+				9E47D40A70D13638D34BA952 /* Pods-UnsplashForJoyDev.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		5225492928F15A6600D23A5E = {
 			isa = PBXGroup;
 			children = (
 				5225493428F15A6700D23A5E /* UnsplashForJoyDev */,
 				5225493328F15A6700D23A5E /* Products */,
+				1365F382EB373331E8E417AC /* Pods */,
+				66A0AC3CD7A3A11744260B36 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +76,97 @@
 		5225493428F15A6700D23A5E /* UnsplashForJoyDev */ = {
 			isa = PBXGroup;
 			children = (
+				5225496128F17C9C00D23A5E /* Model */,
+				5225496228F17CA300D23A5E /* View */,
+				5225496328F17CA900D23A5E /* Controller */,
+				5225494E28F15AF300D23A5E /* AppDelegate */,
+				5225495028F15B2000D23A5E /* Supporting Files */,
+				5225494F28F15B0D00D23A5E /* Resources */,
+			);
+			path = UnsplashForJoyDev;
+			sourceTree = "<group>";
+		};
+		5225494E28F15AF300D23A5E /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
 				5225493528F15A6700D23A5E /* AppDelegate.swift */,
 				5225493728F15A6700D23A5E /* SceneDelegate.swift */,
-				5225493928F15A6700D23A5E /* ViewController.swift */,
-				5225493B28F15A6700D23A5E /* Main.storyboard */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		5225494F28F15B0D00D23A5E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				5225494128F15A6900D23A5E /* Assets.xcassets */,
-				5225494328F15A6900D23A5E /* LaunchScreen.storyboard */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		5225495028F15B2000D23A5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
 				5225494628F15A6900D23A5E /* Info.plist */,
 				5225493E28F15A6700D23A5E /* UnsplashForJoyDev.xcdatamodeld */,
 			);
-			path = UnsplashForJoyDev;
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5225495328F162C900D23A5E /* LikeImage */ = {
+			isa = PBXGroup;
+			children = (
+				5225495C28F1705100D23A5E /* LikeImageTableViewController.swift */,
+			);
+			path = LikeImage;
+			sourceTree = "<group>";
+		};
+		5225496128F17C9C00D23A5E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5225496228F17CA300D23A5E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				5225494328F15A6900D23A5E /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		5225496328F17CA900D23A5E /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5225496E28F2A56200D23A5E /* TabBar */,
+				5225495328F162C900D23A5E /* LikeImage */,
+				5225497128F2AB3B00D23A5E /* DetailInfo */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5225496E28F2A56200D23A5E /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				5225496F28F2A5BC00D23A5E /* TabBarViewController.swift */,
+			);
+			path = TabBar;
+			sourceTree = "<group>";
+		};
+		5225497128F2AB3B00D23A5E /* DetailInfo */ = {
+			isa = PBXGroup;
+			children = (
+				5225496C28F29B4300D23A5E /* DetailInfoViewController.swift */,
+			);
+			name = DetailInfo;
+			sourceTree = "<group>";
+		};
+		66A0AC3CD7A3A11744260B36 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9AF3CC5D6C284C5115A86B43 /* Pods_UnsplashForJoyDev.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5225494928F15A6900D23A5E /* Build configuration list for PBXNativeTarget "UnsplashForJoyDev" */;
 			buildPhases = (
+				8EF0486B2D3F59DBB4FC1836 /* [CP] Check Pods Manifest.lock */,
 				5225492E28F15A6700D23A5E /* Sources */,
 				5225492F28F15A6700D23A5E /* Frameworks */,
 				5225493028F15A6700D23A5E /* Resources */,
+				8593C3A6B0DCBE9753F5E454 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -130,35 +231,70 @@
 			files = (
 				5225494528F15A6900D23A5E /* LaunchScreen.storyboard in Resources */,
 				5225494228F15A6900D23A5E /* Assets.xcassets in Resources */,
-				5225493D28F15A6700D23A5E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8593C3A6B0DCBE9753F5E454 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnsplashForJoyDev/Pods-UnsplashForJoyDev-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-UnsplashForJoyDev/Pods-UnsplashForJoyDev-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-UnsplashForJoyDev/Pods-UnsplashForJoyDev-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8EF0486B2D3F59DBB4FC1836 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UnsplashForJoyDev-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5225492E28F15A6700D23A5E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5225495D28F1705100D23A5E /* LikeImageTableViewController.swift in Sources */,
 				5225494028F15A6700D23A5E /* UnsplashForJoyDev.xcdatamodeld in Sources */,
-				5225493A28F15A6700D23A5E /* ViewController.swift in Sources */,
 				5225493628F15A6700D23A5E /* AppDelegate.swift in Sources */,
+				5225497028F2A5BC00D23A5E /* TabBarViewController.swift in Sources */,
 				5225493828F15A6700D23A5E /* SceneDelegate.swift in Sources */,
+				5225496D28F29B4300D23A5E /* DetailInfoViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		5225493B28F15A6700D23A5E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5225493C28F15A6700D23A5E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		5225494328F15A6900D23A5E /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -288,6 +424,7 @@
 		};
 		5225494A28F15A6900D23A5E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DCBA2866017EF6BA7266C0DA /* Pods-UnsplashForJoyDev.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,10 +432,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QYBSPPC5D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UnsplashForJoyDev/Info.plist;
+				INFOPLIST_FILE = "UnsplashForJoyDev/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -316,6 +452,7 @@
 		};
 		5225494B28F15A6900D23A5E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E47D40A70D13638D34BA952 /* Pods-UnsplashForJoyDev.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -323,10 +460,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = 7QYBSPPC5D;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = UnsplashForJoyDev/Info.plist;
+				INFOPLIST_FILE = "UnsplashForJoyDev/Supporting Files/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
