@@ -9,6 +9,7 @@ import UIKit
 import UnsplashPhotoPicker
 import SDWebImage
 import CoreData
+import SimpleImageViewer
 
 struct TestPhoto {
     let name: String
@@ -90,6 +91,14 @@ class DetailInfoViewController: UIViewController {
         super.viewDidLoad()
         getData()
         setupUI()
+        
+        let tapGestureRecognizer = UITapGestureRecognizer(target: self, action: #selector(imageTapped(tapGestureRecognizer:)))
+        imageView.isUserInteractionEnabled = true
+        imageView.addGestureRecognizer(tapGestureRecognizer)
+    }
+    
+    @objc func imageTapped(tapGestureRecognizer: UITapGestureRecognizer){
+        openImageFullScreen(image: imageView)
     }
     
     // MARK: - Setup UI
@@ -169,6 +178,16 @@ class DetailInfoViewController: UIViewController {
         
         savePhoto(photo: self.photo)
         favoriteButtom.setImage(UIImage(systemName: "heart.fill"), for: .normal)
+    }
+    
+    private func openImageFullScreen(image: UIImageView) {
+        let configuration = ImageViewerConfiguration { config in
+            config.imageView = image
+        }
+        
+        let imageViewerController = ImageViewerController(configuration: configuration)
+        
+        present(imageViewerController, animated: true)
     }
     
     // MARK: - CoreData
