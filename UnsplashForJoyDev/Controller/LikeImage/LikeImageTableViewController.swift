@@ -80,7 +80,7 @@ extension LikeImageTableViewController: UITableViewDelegate, UITableViewDataSour
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
         let detailInfoVC = DetailInfoViewController()
         let savedPhoto = savedPhotos[indexPath.row]
-        let photo = TestPhoto(name: savedPhoto.name ?? "",
+        let photo = ShortInfoImage(name: savedPhoto.name ?? "",
                               imageURL: savedPhoto.imageURL ?? "",
                               likeCount: savedPhoto.likeCount ?? "",
                               location: savedPhoto.location ?? "",

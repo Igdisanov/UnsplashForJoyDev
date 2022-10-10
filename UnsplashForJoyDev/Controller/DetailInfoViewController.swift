@@ -11,19 +11,12 @@ import SDWebImage
 import CoreData
 import SimpleImageViewer
 
-struct TestPhoto {
-    let name: String
-    let imageURL: String
-    let likeCount: String
-    let location: String
-    let identifier: String
-}
 
 class DetailInfoViewController: UIViewController {
     
     var savedPhotos: [SavePhoto] = []
     
-    var photo: TestPhoto! {
+    var photo: ShortInfoImage! {
         didSet {
             guard let url = URL(string: photo.imageURL) else {return}
             imageView.sd_setImage(with: url, completed: nil)
@@ -38,7 +31,7 @@ class DetailInfoViewController: UIViewController {
         didSet {
             guard let imageURL = unsplashPhoto.urls[.regular] else {return}
             
-            photo = TestPhoto(name: "\(unsplashPhoto.user.firstName ?? "") \(unsplashPhoto.user.lastName ?? "")",
+            photo = ShortInfoImage(name: "\(unsplashPhoto.user.firstName ?? "") \(unsplashPhoto.user.lastName ?? "")",
                                   imageURL: "\(imageURL)",
                                   likeCount: "\(unsplashPhoto.likesCount)",
                                   location: unsplashPhoto.user.location ?? "",
@@ -197,7 +190,7 @@ class DetailInfoViewController: UIViewController {
         return appDelegate.persistentContainer.viewContext
     }
     
-    private func savePhoto(photo: TestPhoto) {
+    private func savePhoto(photo: ShortInfoImage) {
         let context = getContext()
         guard let entity = NSEntityDescription.entity(forEntityName: "SavePhoto", in: context) else {return}
         let photoObject = SavePhoto(entity: entity, insertInto: context)

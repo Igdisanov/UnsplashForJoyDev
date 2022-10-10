@@ -15,6 +15,7 @@
 		5225495D28F1705100D23A5E /* LikeImageTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225495C28F1705100D23A5E /* LikeImageTableViewController.swift */; };
 		5225496D28F29B4300D23A5E /* DetailInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225496C28F29B4300D23A5E /* DetailInfoViewController.swift */; };
 		5225497028F2A5BC00D23A5E /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5225496F28F2A5BC00D23A5E /* TabBarViewController.swift */; };
+		527507BE28F3C69900F35994 /* ShortInfoImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 527507BD28F3C69900F35994 /* ShortInfoImage.swift */; };
 		87D6C8BCE49710298F343007 /* Pods_UnsplashForJoyDev.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9AF3CC5D6C284C5115A86B43 /* Pods_UnsplashForJoyDev.framework */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		5225495C28F1705100D23A5E /* LikeImageTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LikeImageTableViewController.swift; sourceTree = "<group>"; };
 		5225496C28F29B4300D23A5E /* DetailInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailInfoViewController.swift; sourceTree = "<group>"; };
 		5225496F28F2A5BC00D23A5E /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		527507BD28F3C69900F35994 /* ShortInfoImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShortInfoImage.swift; sourceTree = "<group>"; };
 		9AF3CC5D6C284C5115A86B43 /* Pods_UnsplashForJoyDev.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_UnsplashForJoyDev.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E47D40A70D13638D34BA952 /* Pods-UnsplashForJoyDev.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashForJoyDev.release.xcconfig"; path = "Target Support Files/Pods-UnsplashForJoyDev/Pods-UnsplashForJoyDev.release.xcconfig"; sourceTree = "<group>"; };
 		DCBA2866017EF6BA7266C0DA /* Pods-UnsplashForJoyDev.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UnsplashForJoyDev.debug.xcconfig"; path = "Target Support Files/Pods-UnsplashForJoyDev/Pods-UnsplashForJoyDev.debug.xcconfig"; sourceTree = "<group>"; };
@@ -123,6 +125,7 @@
 		5225496128F17C9C00D23A5E /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				527507BD28F3C69900F35994 /* ShortInfoImage.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -286,6 +289,7 @@
 				5225495D28F1705100D23A5E /* LikeImageTableViewController.swift in Sources */,
 				5225494028F15A6700D23A5E /* UnsplashForJoyDev.xcdatamodeld in Sources */,
 				5225493628F15A6700D23A5E /* AppDelegate.swift in Sources */,
+				527507BE28F3C69900F35994 /* ShortInfoImage.swift in Sources */,
 				5225497028F2A5BC00D23A5E /* TabBarViewController.swift in Sources */,
 				5225493828F15A6700D23A5E /* SceneDelegate.swift in Sources */,
 				5225496D28F29B4300D23A5E /* DetailInfoViewController.swift in Sources */,
